@@ -19,7 +19,7 @@ rsi_overbought = 70
 rsi_oversold = 30
 
 # Add the Pair variable
-Pairs = ["BNBUSDT"]
+Pairs = ["XRPUSDT"]
 
 app = Flask(__name__)
 
@@ -39,16 +39,16 @@ class TradingStrategy:
     def run_bnb_long(self):
         try:
             subprocess.Popen(["python", "xrp_long.py"])
-            print("Running bnb_long.py")
+            print("Running xrp_long.py")
         except Exception as e:
-            print(f"Error running bnb_long.py: {e}")
+            print(f"Error running xrp_long.py: {e}")
 
     def run_bnb_short(self):
         try:
             subprocess.Popen(["python", "xrp_short.py"])
-            print("Running bnb_short.py")
+            print("Running xrp_short.py")
         except Exception as e:
-            print(f"Error running bnb_short.py: {e}")
+            print(f"Error running xrp_short.py: {e}")
 
     def process_price(self, pair, timestamp, open_price, high_price, low_price, close_price, volume, is_closed):
         if is_closed:
