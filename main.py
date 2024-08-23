@@ -38,14 +38,14 @@ class TradingStrategy:
 
     def run_bnb_long(self):
         try:
-            subprocess.Popen(["python", "bnb_long.py"])
+            subprocess.Popen(["python", "xrp_long.py"])
             print("Running bnb_long.py")
         except Exception as e:
             print(f"Error running bnb_long.py: {e}")
 
     def run_bnb_short(self):
         try:
-            subprocess.Popen(["python", "bnb_short.py"])
+            subprocess.Popen(["python", "xrp_short.py"])
             print("Running bnb_short.py")
         except Exception as e:
             print(f"Error running bnb_short.py: {e}")
