@@ -4,8 +4,8 @@ import math
 import time
 
 # API credentials
-api_key = '7D10dWr9jWGLWP5rfAXjcXqijGPveCk5tFhKON3SCyk1hkSZdtq1DOJJv8eaTu01'
-api_secret = 'Rb0j7IP52yNoKKj1eMwwfaYxuRtOpLfJmorp9yGdJW7T2iLRLdKaPCsvwjxuRB0G'
+api_key = 'EgeOoN241f4KMNgFQ6NjgfJWrwMQLf2YzQAdKyqc5HfTjJF63exDKf6t1m5dwjSy'
+api_secret = 'KZnGfELRNQM5T9NHfcs1qK311hbVSdagotNtsFxZ3f7zCsC8aWUYpPi3trorEpuH'
 
 # Initialize the UMFutures client
 client = UMFutures(key=api_key, secret=api_secret)
